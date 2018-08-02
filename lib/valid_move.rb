@@ -8,6 +8,6 @@ end
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
     return false
-end
-end
+  elsif board[index] == "X" || board[index] == "O"
+    return true
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
