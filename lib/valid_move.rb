@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if 0.between?(0,8) == true
+  if index.include
     return true
 end
 end
