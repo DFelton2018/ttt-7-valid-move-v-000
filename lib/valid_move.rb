@@ -4,6 +4,7 @@ def valid_move?(board, index)
     return true
 end
   elsif index.include? " "
+    return true
 end
 
 def position_taken?(board, index)
