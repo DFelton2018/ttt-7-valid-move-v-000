@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(board, position_taken)
+def valid_move?(board, position_taken?)
   if position_taken? == false || position_taken?.between(0, 8) == true
     return true
   else 
