@@ -10,7 +10,7 @@ end
 
 
 def valid_move?(board, index)
-  if index == nil && index.between?(0, 8) == true
+  if index == nil && index.between?[0, 8] == true
     return true
   else
     return false
