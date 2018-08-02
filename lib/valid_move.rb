@@ -2,9 +2,6 @@
 def valid_move?(board, index)
   if index.between?(0, 8)
     return true
-  elsif 
-    "X".between?(0, 8) 
-    return false
 end
 end
 
